@@ -7,7 +7,7 @@ a {
 
 body {
     font-size: 20px;
-    line-height: 26px;
+    line-height: 22px;
     font-family: "Montserrat", serif;
     color: #eeeeee;
     background-repeat: no-repeat;
@@ -27,7 +27,6 @@ body {
 }
 .text {
 text-indent: 1.5em;
-text-align: justify;
 margin-left: 10px;
 margin-right: 10px;
 }
@@ -45,7 +44,7 @@ margin-right: 10px;
 }
 .about {
   display: grid;
-  grid-template-columns: repeat(2, minmax(10px, auto) );
+  grid-template-columns: repeat(auto-fit, minmax(20px, auto) );
   grid-gap: 30px;
   justify-content: space-around;
   align-items: center;
@@ -77,6 +76,7 @@ margin-right: 10px;
   
 }
 .about_me {
+  line-height: 70px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20px, auto) );
   grid-gap: 30px;
@@ -88,6 +88,7 @@ margin-right: 10px;
   
 }
 .header {
+  line-height: 40px;
   padding: 15px;
   border-bottom: 5px solid #262626;
   box-shadow: 0px 10px 30px rgb(0, 0, 0);
@@ -205,20 +206,11 @@ background: linear-gradient(45deg, rgba(149,103,218,1) 0%, rgba(178,114,151,1) 2
   text-align: right;
   padding-left: 5%;
   margin: 50px auto;
-  font-size: 200px;
+  font-size: 120px;
   color: #262626;
   background: -webkit-linear-gradient(45deg, rgba(149,103,218,1) 0%, rgba(178,114,151,1) 25%, rgba(209,125,81,1) 50%, rgba(223,174,84,1) 75%, rgba(233,211,86,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
-}
-.bgpicture2{
-  text-align: left;
-  padding-right: 5%;
-  margin: 50px auto;
-  font-size: 200px;
-  color: #262626;
-
 }
   .footer {
     margin-top: 200px;
